@@ -1,0 +1,112 @@
+h1 {
+    margin-bottom: 3rem;
+}
+
+form {
+    background: linear-gradient(45deg, #763076, #76307685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding: 2.2rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.user-info {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.user-info input {
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.user-info input:focus {
+    outline: none;
+}
+
+.user-info svg {
+    font-size: 18px;
+    fill: aliceblue;
+}
+
+button {
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #923192
+}
+
+button:hover {
+    background-color: #c41ac49f;
+    transform: translateY(-3px);
+}
+
+.holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 0.4rem;
+}
+
+.search-area input {
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.search-area input:focus {
+    outline: none;
+}
+
+.search-area svg {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+}
+
+.user-card {
+    width: 100%;
+    overflow: hidden;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: linear-gradient(45deg, #7600a98a, #6300a1a8);
+}
+
+.user-card span {
+    font-weight: bold;
+}
+
+.user-card p {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
