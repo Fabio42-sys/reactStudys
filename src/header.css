@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(59, 0, 59);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+nav p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffffb2;
+}
+
+nav p svg {
+    fill: aqua;
+    font-size: 18px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.icons svg {
+    fill: #ffffffb2;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.icons svg:hover {
+    fill: #807878;
+    transform: translateY(-4px);
+}

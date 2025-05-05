@@ -12,7 +12,7 @@ body {
   width: 100%;
   min-height: 100dvh;
   background: linear-gradient(180deg, #16174ea9, #5f24645b);
-} 
+}
 
 body {
   display: flex;
@@ -21,8 +21,9 @@ body {
 }
 
 #root {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  gap: 0.5rem;
 }

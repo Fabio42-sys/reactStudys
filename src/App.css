@@ -26,10 +26,17 @@ form {
     border: none;
     padding: 6px;
     border-radius: 10px;
+    background-color: #ffffff5d;
+    cursor: pointer;
+}
+
+.user-info input::placeholder {
+    color: #ffffff9d;
 }
 
 .user-info input:focus {
     outline: none;
+    cursor: default;
 }
 
 .user-info svg {
