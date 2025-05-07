@@ -12,6 +12,9 @@ nav {
 }
 
 nav p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;

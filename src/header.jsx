@@ -6,8 +6,10 @@ function Header() {
     <header>
       <nav>
         <p>
-            Set, delete and edit your users. created using react <FaReact />
+            Set, delete and edit your users. created using react
+            <FaReact />
         </p>
+        
         <div className="icons">
           <FaCog />
           <FaUserCircle />
